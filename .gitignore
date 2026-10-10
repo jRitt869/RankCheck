@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.vscode/
+docs/IMPROVEMENTS.md
+outputs/
+Ranks.csv
+plot.csv
+mean_spectrum.csv
+spectra.npz
+rank_histogram.png
+singular_spectrum.png
+manifest.json
+run_settings.toml

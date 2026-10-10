@@ -1,0 +1,12 @@
+# Small illustrative run; not a reproduction of thesis-scale results.
+rho_val = 2.0
+depth_val = 2
+latent_val = 3
+num_samples_ff = 128
+num_samples = 64
+steps = 20
+segments = 2
+iterations = 12
+device = "cpu"
+compile = false
+output_dir = "outputs/demo"

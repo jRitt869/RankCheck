@@ -1,0 +1,24 @@
+# Original thesis-scale settings. Use configs/demo.toml for a small CPU run.
+compute_aug = true
+compute_gelu = false
+n_dim = 2
+rho_val = 50.0
+depth_val = 3
+latent_val = 3
+num_samples_ff = 800000
+num_samples = 40000
+t_end = 1.0
+steps = 500
+segments = 10
+iterations = 600
+
+# Numerical rank: singular value > max(atol, rtol * largest singular value).
+rtol = 1e-12
+atol = 1e-10
+
+# Maintenance additions: reproducibility, execution, and saved figures.
+seed = 0
+device = "auto"
+compile = true
+output_dir = "outputs"
+plots = true
