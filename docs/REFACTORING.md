@@ -4,7 +4,7 @@ The original script is preserved byte-for-byte as `archive/numerical_experiments
 
 Preserved: network architecture, ReLU/GELU functions, uniform ball sampling, fan-in parameter sampling, shared samples across iterations, explicit Euler, segmented state/parameter sensitivities, segment composition, full-state augmented outputs, direct Jacobian SVD, volume normalization, original large defaults, and the six-list return format. Named public helper imports remain available through `numerical_experiments.py`.
 
-Intentional maintenance changes:
+Intentional maintenance changes, performed using Codex:
 
 - Move editable constants into `defaults.toml`; allow partial TOML files and optional CLI overrides.
 - Expose the original hardcoded segment count of ten and reject incomplete integrations when it does not divide the step count.
